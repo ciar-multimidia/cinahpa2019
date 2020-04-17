@@ -114,7 +114,6 @@ padding: 0 30px;
 }
 
 
-
 /*INSTITUICOES*/
 
 .instituicoes {
@@ -193,6 +192,16 @@ padding-bottom: 50px;
 width: 700px;	
 }
 
+.areaconteudo article a {
+color: #273540;
+font-weight: 500;
+}
+
+.areaconteudo article strong {
+color: #273540;
+font-weight: bold;
+}
+
 .areaconteudo img {
 position: left;	
 }
@@ -213,6 +222,12 @@ font-weight: 300;
 line-height: 27px;
 font-size: 17px;
 text-align: left;
+}
+
+.areaconteudo li {
+font-weight: 300;
+line-height: 27px;
+font-size: 17px;
 }
 
 
@@ -267,6 +282,7 @@ line-height: 24px;
 
 .areaconteudo p input[type="checkbox"]:checked + label{
     background-color:  #8d741d;
+    cursor: pointer;
 }
 
 .areaconteudo p input[ytpe="checkbox"]:checked + label + .nota-rodape{
@@ -375,7 +391,6 @@ footer {
 background-color: #273540;	
 padding-top: 25px;
 padding-bottom: 25px;
-font-family: Roboto-Regular;
 text-transform: uppercase;
 letter-spacing: 0.5px;
 font-size: 18px;
@@ -405,7 +420,7 @@ margin-bottom: 100px;
 }
 
 #botoes a {
-font-family: Roboto-Medium;
+font-weight: normal;
 font-size: 20px;
 margin-right: 40px;	
 text-decoration: none;
