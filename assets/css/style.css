@@ -224,6 +224,8 @@ font-size: 17px;
 text-align: left;
 }
 
+
+
 .areaconteudo li {
 font-weight: 300;
 line-height: 27px;
@@ -250,7 +252,7 @@ line-height: 24px;
     width: 4px;
     height: 4px;
     font-size: 14px;
-    background-color: #8d741d;
+    background-color: #DDDDDD;
     font-weight: bold;
     color: black;
     padding: 1px 4px;
@@ -283,6 +285,7 @@ line-height: 24px;
 
 .areaconteudo p input[type="checkbox"]:checked + label{
     background-color:  #8d741d;
+    color: white;
 }
 
 .areaconteudo p input[type="checkbox"]:checked + label + .nota-rodape{
@@ -430,6 +433,10 @@ border-top: 5px solid  #dab212;
 padding: 10px 40px 20px 0;
 }
 
+#botoes a:hover {
+border-top: 5px solid #273540;
+}
+
 #sumario {
 width: 100%;
 font-family: Roboto;
@@ -453,6 +460,10 @@ margin-left: 40px;
 margin-bottom: 40px;
 width: calc(33% - 40px);
 vertical-align: top;
+}
+
+#sumario a:hover {
+border-top: 5px solid #273540;
 }
 
 #sumario a:nth-of-type(3n-2) {
@@ -486,11 +497,15 @@ padding-top: 15px;
 
 .ficha h2 {
 font-size: 18px;
+padding-top: 15px; 
 }
 
 .ficha p {
 font-size: 15px;
+margin: 5px 0 5px 0;
 }
+
+
 
 
 
