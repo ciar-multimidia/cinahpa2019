@@ -11,6 +11,7 @@
 
 	#governo {
 		display: none;	
+		font-size: 9px;
 	}
 	
 	/*SUMARIO*/
@@ -42,21 +43,26 @@
 		width: 100%;
 	}
 
+	/*CABEÇALHO INDEX*/
+
+	.header h2 {
+		margin-bottom: 20px;
+	}
+
 	/*CABEÇALHO CONTEUDO*/
 
-	.menor {
+	.headerconteudo {
 		height: auto;
 		padding-bottom: 20px;
 	}
 
-	.menor h1 {
+	.headerconteudo h1 {
 		padding-top: 40px;
 	}
 
-	.menor .marcaufg {
-		float: none;
+	.marca {
 		margin: 0;
-		padding-top: 30px;
+		padding-top: 18px;
 	}
 
 	/*AUTORES*/
@@ -77,6 +83,7 @@
 
 	.pagina {
 		font-size: 18px;
+		width: 100%;
 	}
 
 	/*NOTADERODAPE*/
@@ -89,10 +96,22 @@
 
 	/*FICHA TECNICA - BOX ISBN*/
 
-	.box {
-		width: 100%;
+	 #link {
+    width: 30%;
+    font-weight: normal;
+    display: block;
+    margin-top: 50px;
+    background-color: #dab212;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 15px;
+    text-decoration: none;
 	}
-}
+
+	.fichacat {
+    width: 100%;
+	}
+
 
 
 
@@ -100,6 +119,7 @@
 @media (max-width: 425px) {
 
 	.container {
+		padding-top: 5px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -111,34 +131,53 @@
 		padding-bottom: 20px;
 	}
 
+	.header a {
+		display: block;
+		float: none;
+		text-align: left;
+	}
+
 	.header h1 {
-		font-size: 25px;
-		padding-top: 40px;
+		font-size: 28px;
+		padding-top: 20px;
+		margin-bottom: 0;
 	}
 
 	.header h2 {
-		font-size: 18px;
+		padding-top: 0;
+		padding-bottom: 5px;
+		margin: 0;
+		font-size: 24px;
 	}
 
 	.header h1, .header h2 {
 		line-height: 1.4;
 	}
 
+	.marca {
+		width: 80px;
+	}
+
 	/*CABECALHO CONTEUDO*/
 
-	.menor {
+	.headerconteudo {
 		height: auto;
 	}
 
-	.menor h1 {
-		font-size: 1em;
+	.headerconteudo h1 {
+		font-size: 1.7em;
 		margin-top: 0;
 		padding-top: 40px;
 	}
 
-	.menor h2 {
-		font-size: 0.9em;
+	.headerconteudo h2 {
+		font-size: 1.3em;
 		padding-top: 10px;
+	}
+
+	.headerconteudo .marca {
+		display: none;
+	
 	}
 
 
@@ -157,7 +196,7 @@
 		margin-right: 0;
 		/*text-align: center;*/
 		padding-right: 0;
-		width: 49%;
+		width: 100%;
 	}
 
 	#sumario h1 {
@@ -221,7 +260,37 @@
 		margin-right: 15px;
 	}
 
+	.pagina {
+		font-size: 18px;
+		width: 100%;
+	}
+
+
 	/*FICHA TECNICA*/
+
+	.footerficha p {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    line-height: 1.5em;
+    }
+
+    #link {
+    width: 100%;
+    font-weight: normal;
+    display: block;
+    margin-top: 50px;
+    background-color: #dab212;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+	}
+
+	.fichacat {
+    width: 100%;
+	}
 
 	.imprimir {
 	width: 100%;
