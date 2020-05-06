@@ -135,7 +135,6 @@ width: 100%;
 margin: 0;	
 }
 
-
 /* CABEÇALHO INDEX*/
 
 .header {
@@ -262,6 +261,7 @@ margin: 0 auto;
 padding-top: 70px;
 padding-bottom: 50px;
 }
+
 
 .areaconteudo article{
 width: 700px;	
@@ -470,6 +470,19 @@ font-size: 25px;
 text-align: right;
 }
 
+/*PRINT*/
+
+#print {
+    width: 40px;
+    float: right;
+}
+
+#printficha {
+    width: 40px;
+    float: right;
+    margin-top: 85px;
+}
+
 
 /*RODAPÉ*/
 
@@ -633,9 +646,41 @@ margin: 5px 0 5px 0;
 .fichacat {
     border: 1px solid #858585;
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px 0;
     width: 60%;
 }
+
+
+.fichacat p {
+    font-size: 13px;
+    line-height: 18px;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.fichacat .codigo {
+    width: 10%;
+    float: left;
+    position: relative;
+}
+
+.fichacat .dados {
+    width: 90%;
+    float: right;
+    position: relative;
+}
+
+.fichacat:before, .fichacat:after {
+    content: "";
+    display: table;
+}
+
+.fichacat:after {
+    clear: both;
+}
+
+
+
 
 .marcaufg {
     display: block;

@@ -1,0 +1,181 @@
+
+/*RESETANDO ESTILOS*/
+
+* {
+background:transparent !important;
+color: #000 !important;
+text-shadow:none !important;
+}
+
+body {
+margin: 0;
+padding: 0;
+line-height: 1.5em;
+font-size: 12pt;
+}
+
+.areaconteudo p {
+font-weight: 300;
+font-size: 12pt;
+padding-top: 1.5em;
+}
+
+.areaconteudo figcaption {
+font-size: 10pt;
+font-weight: normal;
+}
+
+.areaconteudo blockquote {
+font-size: 10pt;
+line-height: 1.5em;
+}
+
+.areaconteudo h1 {
+font-weight: bold;
+font-size: 14pt;
+border: none;
+padding-left: 0;
+padding-top: 30px;
+}
+
+.areaconteudo h2, .areaconteudo h2 {
+	margin-top: 30px;
+}
+
+.areaconteudo h2, .areaconteudo h3, 
+.areaconteudo h5 {
+font-weight: bold;
+font-size: 12pt;
+}
+
+
+img {
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+}
+
+.container {
+font-family: "Arial";
+font-size: 12pt;
+}
+
+/*CABEÇALHO HOME*/
+
+
+
+/*CABEÇALHO CONTEÚDO*/
+
+.headerconteudo {
+	display: none;
+}
+
+.menor {
+	display: none;
+}
+
+/*AREA CONTEUDO*/
+
+@page {
+	margin-top: 2cm;
+	margin-left: 1.5cm;
+	margin-right: 2.5cm;
+	margin-bottom: 2.5cm;
+}
+
+img {
+	max-width: 80%;
+}
+
+
+article p {
+text-align: justify !important;
+}
+
+#print {
+	display: none;
+}
+
+#printficha {
+	display: none;
+}
+
+th, td {
+	font-size: 13px;
+}
+
+/*LINKS*/
+
+/*
+a, a:visited {
+text-decoration: underline;
+}
+*/
+
+/*URL entre parenteses*/
+/*
+a:link:after, a:visited:after {
+content: " (" attr(href) ") ";
+}
+*/
+
+/*quebrar links*/
+p a {
+word-wrap: break-word;
+}
+
+/*AUTORES */
+
+.infodireita {
+width: 100%;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.autores {
+font-size: 10pt;
+border: none;
+padding: 0;
+line-height: 1.5em;
+}
+
+.pdf {
+display: none;
+}
+
+footer {
+display: none;
+}
+
+/*PAGINACAO */
+
+.pagina {
+	font-size: 10pt;
+	border-bottom: 1px solid #a3a3a3 !important;
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+
+/*CURRICULO */
+
+.boxcurriculo {
+	border: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
