@@ -59,9 +59,16 @@ font-family: "Arial";
 font-size: 12pt;
 }
 
-/*CABEÇALHO HOME*/
 
+/*FICHA TECNICA*/
 
+#botoes {
+	display: none;
+}
+
+#link {
+	display: none;
+}
 
 /*CABEÇALHO CONTEÚDO*/
 
@@ -142,8 +149,14 @@ line-height: 1.5em;
 display: none;
 }
 
-footer {
-display: none;
+/* FOOTER */
+
+.footerconteudo {
+	display: none;
+}
+
+.footerficha {
+	text-align: left;
 }
 
 /*PAGINACAO */
