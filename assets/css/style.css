@@ -125,7 +125,7 @@ text-align: center;
 }
 
 #governo {
-background-color: #273540;
+background-color: #000C16;
 padding-top: 10px;
 padding-bottom: 10px;
 width: 100%;
@@ -381,26 +381,24 @@ figure img {
 width: auto;
 max-width: 100%;
 max-height: 680px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
+align-items: left;
 padding-bottom: 5px;
 }
 
-figure figcaption {
-font-family: Roboto-Regular;
-font-size: 16px;
-text-align: center;	
+figcaption {
+font-family: Roboto;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+width: 70%;
+padding-top: 20px;
 }
 
 figure.galeria {
-text-align: center;
 width: 100%;    
 }
 
 figure.galeria img {
-display: inline-block;
 margin: 2px;
 max-height: 300px;
 }
